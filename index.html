@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--Iconos-->
+    <script
+      src="https://kit.fontawesome.com/b5764fffd2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Trivia</title>
+  </head>
+
+  <body>
+    <!--Navegation bar-->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#bienvenido">Bienvenido</a></li>
+        <li><a href="#respuestas">Respuestas</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <!--End Navegation bar-->
+
+    <!--Welcome section-->
+    <section id="bienvenido">
+      <h1>Trivia Pokémon</h1>
+      <p id="userName"></p>
+    </section>
+    <!--End Welcome section-->
+
+    <!--Respuestas-->
+    <div id="rei">
+      <section id="respuestas">
+        <h2>Respuestas</h2>
+        <p class="questions">1.-¿Cuál de los siguientes pokemon no es de tipo dragon?
+            <ul>
+              <li>1. Dragonite</li>
+              <li>2. Dratini</li>
+              <li>3. Dragonair</li>
+              <li id="resp1">4. Charizard</li>
+              <li id="ri1"></li> 
+          </ul>
+        </p>
+
+        <p class="questions">
+          2.-¿Cuando es el cumpleaños de Mewtwo?
+          <ul>
+              <li id="resp2">1. 6 de Febrero</li>
+              <li>2. 5 de Junio</li>
+              <li>3. 11 de Junio</li>
+              <li>4. 31 de Diciembre</li>
+              <li id="ri2"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          3.-Si al comenzar el juego nosotros elegíamos a Balbasaur, entonces
+          nuestro rival escogia a ...
+          <ul>
+              <li>1. Balbasaur</li>
+              <li id="resp3">2. Charmander</li>
+              <li>3. Eve</li>
+              <li>4. Squirtle</li>
+              <li id="ri3"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          4.-¿Cuál de los siguientes no es un tipo de Pokemon visto en las
+          primeras ediciones de los juegos originales?
+          <ul>
+              <li>1. Lucha</li>
+              <li>2. Psíquico</li>
+              <li id="resp4">3. Acero</li>
+              <li>4. Hielo</li>
+              <li id="ri4"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          5.-¿Qué tipo de Pokémon es Mr. Mime en Pokémon Amarillo?
+          <ul>
+              <li id="resp5">1. Psíquico</li>
+              <li>2. Lucha</li>
+              <li>3. Hada</li>
+              <li>4. Normal</li>
+              <li id="ri5"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          6.-¿Qué es Missingno?
+          <ul>
+              <li>1. Un lider de gimnasio</li>
+              <li>2. Un objeto  único</li>
+              <li>3. Un pokémon legendario</li>
+              <li id="resp6">4. Un error de programación</li>
+              <li id="ri6"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          7.-¿Cuál es el ataque mas poderoso de Magikarp?
+          <ul>
+              <li id="resp7">1. Placaje</li>
+              <li>2. Rayo solar</li>
+              <li>3. Ira dragón</li>
+              <li>4. Salpicadura</li>
+              <li id="ri7"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          8.-¿Cómo evoluciona Pikachu?
+          <ul>
+              <li>1. A traves del intercambio</li>
+              <li>2. Con la piedra rayo</li>
+              <li id="resp8">3. Con la piedra trueno</li>
+              <li>4. Llegando al nivel 26</li>
+              <li id="ri8"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          9.-¿Cómo se llama el lider del Team Rocket?
+          <ul>
+              <li id="resp9">1. Giovanni</li>
+              <li>2. Jessie</li>
+              <li>3. James</li>
+              <li>4. Meowht</li>
+              <li id="ri9"></li>
+          </ul>
+        </p>
+        <p class="questions">
+          10.-¿Cuál de estos no es un Pokémon legendario?
+          <ul>
+              <li>1. Articuno</li>
+              <li>2. Moltres</li>
+              <li>3. Zapdos</li>
+              <li id="resp10">4. Gyarados</li>
+              <li id="ri10"></li>
+          </ul>
+        </p>
+      </section>
+      <div id="imgs">
+        <img src="assets/dragonite" alt="">
+        <img src="assets/dragonair" alt="">
+        <img src="assets/Jiggly" alt="">
+      </div>
+    </div>
+    <!--Finalizan respuestas-->
+
+    <!--Desppliegue de resultados totales-->
+    <h2 id="resultados"></h2>
+    <!--Finalizacion de resultados-->
+
+        <!-- footer section -->
+        <footer>
+          <p>
+            &copy; Created for:
+            <a href="https://twitter.com/albertoouu" target="_blank"
+              >Albertoouu <i class="fas fa-robot"></i
+            ></a>
+          </p>
+        </footer>
+        <!-- end footer section -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
