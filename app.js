@@ -45,7 +45,7 @@ if (aceptacion !== true) {
     document.getElementById("resp1").innerHTML = "4.Charizard " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri1").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 4.<strong>Charizard</strong>";
+    document.getElementById("ri1").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>4.Charizard</strong>";
   }
   let p2 = prompt(
     "¿Cuando es el cumpleaños de Mewtwo? \n 1. 6 de Febrero \n 2. 5 de Junio \n 3. 11 de Junio \n 4. 31 de Diciembre"
@@ -56,7 +56,7 @@ if (aceptacion !== true) {
     document.getElementById("resp2").innerHTML = "1. 6 de Febrero " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri2").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 1. 6 de Febrero";
+    document.getElementById("ri2").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>1. 6 de Febrero</strong>";
   }
   let p3 = prompt(
     "Si al comenzar el juego nosotros elegíamos a Balbasaur, entonces nuestro rival escogia a ... \n 1.Balbasaur \n 2.Charmander \n 3.Eve \n 4.Squirtle"
@@ -67,7 +67,7 @@ if (aceptacion !== true) {
     document.getElementById("resp3").innerHTML = "2. Charmander " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri3").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 2. Charmander";
+    document.getElementById("ri3").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>2. Charmander</strong>";
   }
   let p4 = prompt(
     "¿Cuál de los siguientes no es un tipo de Pokemon visto en las primeras ediciones de los juegos originales? \n 1.Lucha \n 2.Psíquico \n 3.Acero \n 4.hielo"
@@ -78,7 +78,7 @@ if (aceptacion !== true) {
     document.getElementById("resp4").innerHTML = "3. Acero " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri4").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 3. Acero";
+    document.getElementById("ri4").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>3. Acero</strong>";
   }
   let p5 = prompt(
     "¿Qué tipo de Pokémon es Mr. Mime en Pokémon Amarillo? \n 1.Psíquico \n 2.Lucha \n 3.Hada \n 4.Normal"
@@ -89,7 +89,7 @@ if (aceptacion !== true) {
     document.getElementById("resp5").innerHTML = "1. Psíquico " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri5").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 1. Psíquico";
+    document.getElementById("ri5").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>1. Psíquico</strong>";
   }
   let p6 = prompt(
     "¿Qué es Missingno? \n 1.Un lider de gimnasio \n 2.Un objeto único \n 3.Un Pokémon legendario \n 4.Un error de programación"
@@ -100,7 +100,7 @@ if (aceptacion !== true) {
     document.getElementById("resp6").innerHTML = "4. Un error de programacion " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri6").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 4. Un error de programación";
+    document.getElementById("ri6").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>4. Un error de programación</strong>";
   }
   let p7 = prompt(
     "¿Cuál es el ataque mas poderoso de Magikarp? \n 1.Placaje \n 2.Rayo solar \n 3.Ira dragón \n 4.Salpicadura"
@@ -111,7 +111,7 @@ if (aceptacion !== true) {
     document.getElementById("resp7").innerHTML = "1. Placaje " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri7").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 1. Placaje";
+    document.getElementById("ri7").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>1. Placaje</strong>";
   }
   let p8 = prompt(
     "¿Cómo evoluciona Pikachu? \n 1.A traves del intercambio \n 2.Con la piedra rayo \n 3.Con la piedra trueno \n 4.Llegando al nivel 26"
@@ -122,7 +122,7 @@ if (aceptacion !== true) {
     document.getElementById("resp8").innerHTML = "3. Con la piedra trueno " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri8").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 3. Con la piedra trueno";
+    document.getElementById("ri8").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>3. Con la piedra trueno</strong>";
   }
   let p9 = prompt(
     "¿Cómo se llama el lider del Team Rocket? \n 1.Giovanni \n 2.Jessie \n 3.James \n 4.Meowht"
@@ -133,7 +133,7 @@ if (aceptacion !== true) {
     document.getElementById("resp9").innerHTML = "1. Giovanni " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri9").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 1. Giovanni";
+    document.getElementById("ri9").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>1. Giovanni</strong>";
   }
   let p10 = prompt(
     "¿Cuál de estos no es un Pokémon legendario? \n 1.Articuno \n 2.Moltres \n 3.Zapdos \n 4.Gyarados"
@@ -144,8 +144,27 @@ if (aceptacion !== true) {
     document.getElementById("resp10").innerHTML = "4. Gyarados " + `<i class="fas fa-check"></i>`;
   } else {
     alert("incorrecto");
-    document.getElementById("ri10").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: 4. Gyarados";
+    document.getElementById("ri10").innerHTML =  `<i class="fas fa-times"></i>` +" La respuesta correcta es: <strong>4. Gyarados</strong>";
   }
 }
-
 document.getElementById("resultados").innerHTML =  "Tus respuestas correctas correctas son: " + i + " de 10";
+switch (i) {
+  case 0:
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  document.getElementById("resultados2").innerHTML =  "Suerte para la proxima";
+    break ;
+  case 5:
+  case 6:
+  case 7:
+  case 8:
+  document.getElementById("resultados2").innerHTML =  "Sabes algo de Pokémon";
+    break;
+  case 9:
+  case 10:
+  document.getElementById("resultados2").innerHTML =  "Eres un maestro Pokémon";
+  default:
+    break;
+}
